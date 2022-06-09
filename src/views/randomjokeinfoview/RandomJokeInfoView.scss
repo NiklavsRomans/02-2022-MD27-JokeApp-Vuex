@@ -1,0 +1,28 @@
+.joke-info {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid rgba(255, 0, 55, 0.342);
+    background-color: rgba(63, 6, 32, 0.116);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.back-btn {
+    margin: 20px 0px;
+    padding: 2px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(253, 67, 98);
+    cursor: pointer;
+
+    &:hover{
+        color: white;
+    }
+}
+
+.joke-title{
+    margin-top: 20px;
+    padding-right: 20px;
+}

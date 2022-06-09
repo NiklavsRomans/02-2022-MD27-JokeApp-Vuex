@@ -1,0 +1,58 @@
+.random-name-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 26px;
+    padding: 80px;
+
+}
+
+.random-name-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.random-name-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(63, 6, 32, 0.116);
+    border: 1px solid rgba(255, 0, 55, 0.342);
+    border-radius: 8px;
+    
+}
+
+.name-generator-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.877);
+    color: rgb(0, 0, 0);
+    &:hover {
+        background-color: rgba(253, 3, 66, 0.5);
+        color: white;
+    }
+}
+
+.reset-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    &:hover {
+        color: rgb(255, 0, 106);
+    }
+}
