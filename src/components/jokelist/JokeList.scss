@@ -1,0 +1,30 @@
+.joke-item {
+    list-style: decimal;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    background-color: rgba(63, 6, 32, 0.116);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    margin-left: 18px;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 0, 64, 0.247);
+    }
+}
+
+
+
+.joke-category-box {
+  border: 1px solid black;
+  max-width: min-content;
+  padding: 0px 10px;
+  border-radius: 4px;
+  margin: 10px;
+  background-color: rgb(253, 67, 98);
+  border: none;
+  font-size: 16px;
+  
+}
