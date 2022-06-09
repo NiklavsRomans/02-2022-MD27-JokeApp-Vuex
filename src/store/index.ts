@@ -1,9 +1,10 @@
 import { createStore } from "vuex";
+import RandomJokes from "./modules/RandomJokes";
+import RandomNames from "./modules/RandomNames";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    RandomJokes,
+    RandomNames,
+  },
 });
