@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/random-jokes">Random Jokes</router-link>
+    <router-link to="/random-name">Name Picker</router-link>
   </nav>
   <router-view />
 </template>
@@ -11,20 +11,29 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
 nav {
   padding: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.39);
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: rgb(253, 67, 98);
     }
   }
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
 }
 </style>
